@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_food/pages/counter/counter_page.dart';
 import 'package:flutter_food/pages/food_list/food_list_page.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const FoodListPage(),
+      home: const CounterPage(),
     );
   }
 }
